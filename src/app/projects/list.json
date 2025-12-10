@@ -1,13 +1,12 @@
 [
 	{
-		"name": "第一版 Blog 网站",
-		"year": 2023,
+		"name": "上一版个人网站",
+		"year": 2024,
 		"description": "最开始是觉得掘金这种网站写文章挺好的。后面还是想写一个自己网站，体现自己的风格。MDX 还可以自己写组件到 blog，直接交互，多好。。。没想到为以后埋下了坑。",
 		"image": "https://blog-archive.yysuni.com/favicons/android-chrome-512x512.png",
-		"url": "https://blog-archive.yysuni.com/",
+		"url": "https://yulair.top/",
 		"tags": [
-			"Next.js",
-			"MDX"
+			"Vue"
 		]
 	}
 ]
