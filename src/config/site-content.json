@@ -1,8 +1,8 @@
 {
 	"meta": {
-		"title": "YYsuni",
-		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
-		"username": "Suni"
+		"title": "Yuvex's blog",
+		"description": "Yuvex 的博客，记录前端开发、探索、笔记。来自yysun",
+		"username": "Yuvex"
 	},
 	"theme": {
 		"colorBrand": "#de4331",
@@ -50,15 +50,15 @@
 		},
 		{
 			"id": "juejin",
-			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
+			"type": "qq",
+			"value": "2971904878",
 			"label": "稀土掘金",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "ifiloseitall@foxmail.com",
 			"label": "",
 			"order": 1
 		}
