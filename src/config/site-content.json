@@ -5,22 +5,21 @@
 		"username": "Yuvex"
 	},
 	"theme": {
-		"colorBrand": "#35bfab",
-		"colorPrimary": "#334f52",
+		"colorBrand": "#ef476f",
+		"colorPrimary": "#4E3F42",
 		"colorSecondary": "#7b888e",
-		"colorBrandSecondary": "#1fc9e7",
+		"colorBrandSecondary": "#FCC841",
 		"colorBg": "#eeeeee",
 		"colorBorder": "#ffffff",
 		"colorCard": "#ffffff66",
 		"colorArticle": "#ffffffcc"
 	},
 	"backgroundColors": [
-		"#EDDD62",
-		"#9EE7D1",
-		"#84D68A",
-		"#EDDD62",
-		"#88E6E5",
-		"#a7f3d0"
+		"#ef476f",
+		"#ffd166",
+		"#de92ce",
+		"#DE4331",
+		"#ef476f"
 	],
 	"artImages": [
 		{
