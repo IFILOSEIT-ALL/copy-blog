@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Yuvex",
-		"description": "Yuvex 的博客，记录前端开发、探索、笔记。来自yysun",
+		"description": "Yuvex 的博客，展示作品、记点博客、收藏些网络上的好东西~\n模板来自yysuni.com",
 		"username": "Yuvex"
 	},
 	"theme": {
@@ -29,9 +29,13 @@
 		{
 			"id": "a46372ff45bc5524",
 			"url": "/images/art/a46372ff45bc5524.jpg"
+		},
+		{
+			"id": "8b573287a5c4b213",
+			"url": "/images/art/8b573287a5c4b213.webp"
 		}
 	],
-	"currentArtImageId": "cat",
+	"currentArtImageId": "8b573287a5c4b213",
 	"backgroundImages": [
 		{
 			"id": "",
@@ -72,5 +76,5 @@
 	"clockShowSeconds": false,
 	"summaryInContent": false,
 	"isCachePem": false,
-	"hideEditButton": false
+	"hideEditButton": true
 }
