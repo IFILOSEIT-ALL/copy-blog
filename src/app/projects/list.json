@@ -1,12 +1,12 @@
 [
 	{
-		"name": "上一版个人网站",
+		"name": "老版个人网站",
 		"year": 2024,
-		"description": "最开始是觉得掘金这种网站写文章挺好的。后面还是想写一个自己网站，体现自己的风格。MDX 还可以自己写组件到 blog，直接交互，多好。。。没想到为以后埋下了坑。",
+		"description": "刚学vue时想练练手，有正好到了该实习的时候，于是做了这个网站顺便能展示作品。首屏背景是小伟画的。",
 		"image": "https://blog-archive.yysuni.com/favicons/android-chrome-512x512.png",
 		"url": "https://yulair.top/",
 		"tags": [
-			"Vue"
+			"Web Vue"
 		]
 	}
 ]
