@@ -1,6 +1,6 @@
 {
 	"meta": {
-		"title": "Yuvex's blog",
+		"title": "Yuvex",
 		"description": "Yuvex 的博客，记录前端开发、探索、笔记。来自yysun",
 		"username": "Yuvex"
 	},
@@ -31,7 +31,7 @@
 			"url": "/images/art/a46372ff45bc5524.jpg"
 		}
 	],
-	"currentArtImageId": "a46372ff45bc5524",
+	"currentArtImageId": "cat",
 	"backgroundImages": [
 		{
 			"id": "",
