@@ -4,16 +4,6 @@ import { hashFileSHA256 } from '@/lib/file-utils'
 import { loadBlog } from '@/lib/load-blog'
 import type { PublishForm, ImageItem } from '../types'
 
-export const formatDateTimeLocal = (date: Date = new Date()): string => {
-	const pad = (n: number) => String(n).padStart(2, '0')
-	const year = date.getFullYear()
-	const month = pad(date.getMonth() + 1)
-	const day = pad(date.getDate())
-	const hours = pad(date.getHours())
-	const minutes = pad(date.getMinutes())
-	return `${year}-${month}-${day}T${hours}:${minutes}`
-}
-
 type WriteStore = {
 	// Mode state
 	mode: 'create' | 'edit'
@@ -51,10 +41,9 @@ const initialForm: PublishForm = {
 	title: '',
 	md: '',
 	tags: [],
-	date: formatDateTimeLocal(),
+	date: new Date().toISOString().slice(0, 10),
 	summary: '',
-	hidden: false,
-	category: ''
+	hidden: false
 }
 
 export const useWriteStore = create<WriteStore>((set, get) => ({
@@ -192,10 +181,9 @@ export const useWriteStore = create<WriteStore>((set, get) => ({
 					title: blog.config.title || '',
 					md: blog.markdown,
 					tags: blog.config.tags || [],
-					date: blog.config.date ? formatDateTimeLocal(new Date(blog.config.date)) : formatDateTimeLocal(),
+					date: blog.config.date || new Date().toISOString().slice(0, 10),
 					summary: blog.config.summary || '',
-					hidden: blog.config.hidden || false,
-					category: blog.config.category || ''
+					hidden: blog.config.hidden || false
 				},
 				images,
 				cover,
@@ -227,7 +215,7 @@ export const useWriteStore = create<WriteStore>((set, get) => ({
 		set({
 			mode: 'create',
 			originalSlug: null,
-			form: { ...initialForm, date: formatDateTimeLocal() },
+			form: { ...initialForm, date: new Date().toISOString().slice(0, 10) },
 			images: [],
 			cover: null
 		})
