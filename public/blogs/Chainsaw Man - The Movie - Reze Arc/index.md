@@ -1,1 +1,2 @@
-![](https://gitee.com/IFILOSEITALL/img/raw/master/20251215173632062.webp)
+昨天看完的雷赛篇，难以释怀。
+画面十分顶级，主要是“生动”，有活人感
