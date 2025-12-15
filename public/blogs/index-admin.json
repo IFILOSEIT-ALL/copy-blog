@@ -10,5 +10,15 @@
     "summary": "概要测试",
     "cover": "/blogs/这是啥？/ddaebe6c5236bc01.png",
     "hidden": false
+  },
+  {
+    "slug": "99-99",
+    "title": "这是一篇blog",
+    "tags": [
+      "111"
+    ],
+    "date": "2025-12-15",
+    "summary": "123123",
+    "hidden": false
   }
 ]
