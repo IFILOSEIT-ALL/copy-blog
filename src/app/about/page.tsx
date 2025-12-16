@@ -7,9 +7,9 @@ import { useMarkdownRender } from '@/hooks/use-markdown-render'
 import { pushAbout, type AboutData } from './services/push-about'
 import { useAuthStore } from '@/hooks/use-auth'
 import { useConfigStore } from '@/app/(home)/stores/config-store'
-import LikeButton from '@/components/like-button'
-import GithubSVG from '@/svgs/github.svg'
 import initialData from './list.json'
+import { BlogSidebar } from '@/components/blog-sidebar'
+import { useSize } from '@/hooks/use-size'
 
 export default function Page() {
 	const [data, setData] = useState<AboutData>(initialData as AboutData)
@@ -21,8 +21,9 @@ export default function Page() {
 
 	const { isAuth, setPrivateKey } = useAuthStore()
 	const { siteContent } = useConfigStore()
-	const { content, loading } = useMarkdownRender(data.content)
+	const { content, toc, loading } = useMarkdownRender(data.content)
 	const hideEditButton = siteContent.hideEditButton ?? false
+	const { maxSM: isMobile } = useSize()
 
 	const handleChoosePrivateKey = async (file: File) => {
 		try {
@@ -103,8 +104,8 @@ export default function Page() {
 				}}
 			/>
 
-			<div className='flex flex-col items-center justify-center px-6 pt-32 pb-12 max-sm:px-0'>
-				<div className='w-full max-w-[800px]'>
+			<div className='mx-auto flex max-w-[1140px] items-start justify-center gap-6 px-6 pt-28 pb-12 max-sm:px-0'>
+				<div className='flex-1'>
 					{isEditMode ? (
 						isPreviewMode ? (
 							<div className='space-y-6'>
@@ -166,22 +167,9 @@ export default function Page() {
 							)}
 						</>
 					)}
-
-					<div className='mt-8 flex items-center justify-center gap-6'>
-						<motion.a
-							href='https://github.com/YYsuni/2025-blog-public'
-							target='_blank'
-							rel='noreferrer'
-							initial={{ opacity: 0, scale: 0.6 }}
-							animate={{ opacity: 1, scale: 1 }}
-							transition={{ delay: 0 }}
-							className='bg-card flex h-[53px] w-[53px] items-center justify-center rounded-full border'>
-							<GithubSVG />
-						</motion.a>
-
-						<LikeButton slug='open-source' delay={0} />
-					</div>
 				</div>
+
+				{!isMobile && <BlogSidebar toc={toc} />}
 			</div>
 
 			<motion.div initial={{ opacity: 0, scale: 0.6 }} animate={{ opacity: 1, scale: 1 }} className='fixed top-4 right-6 z-10 flex gap-3 max-sm:hidden'>

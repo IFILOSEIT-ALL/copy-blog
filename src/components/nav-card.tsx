@@ -40,7 +40,7 @@ const list = [
 	{
 		icon: AboutOutlineSVG,
 		iconActive: AboutFilledSVG,
-		label: '关于网站',
+		label: '交互录集',
 		href: '/about'
 	},
 	{
