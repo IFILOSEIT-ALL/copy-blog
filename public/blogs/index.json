@@ -9,49 +9,5 @@
     "summary": "会想用“生动”来形容画面，动作自然有灵魂，突然的声画分离非常有情绪张力。",
     "cover": "https://gitee.com/IFILOSEITALL/img/raw/master/20251215173632062.webp",
     "hidden": false
-  },
-  {
-    "slug": "这是啥？",
-    "title": "测试标题",
-    "tags": [
-      "标签1",
-      "css"
-    ],
-    "date": "2025-12-15",
-    "summary": "概要测试",
-    "cover": "/blogs/这是啥？/ddaebe6c5236bc01.png",
-    "hidden": false
-  },
-  {
-    "slug": "99-99",
-    "title": "这是一篇blog",
-    "tags": [
-      "111"
-    ],
-    "date": "2025-12-15",
-    "summary": "123123",
-    "hidden": false
-  },
-  {
-    "slug": "Chainsaw Man - The Movie - Reze Arc",
-    "title": "电锯人蕾塞篇",
-    "tags": [],
-    "date": "2025-12-15",
-    "summary": "",
-    "cover": "https://gitee.com/IFILOSEITALL/img/raw/master/20251215173632062.webp",
-    "hidden": false
-  },
-  {
-    "slug": "ani-ChainsawManTheMovieRezeArc",
-    "title": "电锯人蕾塞篇",
-    "tags": [
-      "影评",
-      "动漫",
-      "作品"
-    ],
-    "date": "2025-12-15",
-    "summary": "电锯人蕾塞篇影评",
-    "cover": "https://gitee.com/IFILOSEITALL/img/raw/master/20251215173632062.webp",
-    "hidden": false
   }
 ]
