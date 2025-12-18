@@ -10,20 +10,16 @@
 
 > 在 Chrome 地址栏输入`chrome://version/`，找到 “个人资料路径”，记住当前路径后，打开文件管理器进入该路径的上级文件夹（一般是 User Data 文件夹），里面可能有 Profile 1、Profile 2 这类命名的文件夹，这些就是旧的配置文件，可复制旧配置文件夹里的内容替换当前配置文件夹内容，重启 Chrome 尝试恢复。
 
-### 第一步
-跟着操作来先`chrome://version/`
+- 跟着操作来先`chrome://version/`
 ![](https://gitee.com/IFILOSEITALL/img/raw/master/20251218105723369.webp)
 
-### 第二步
-打开路径发现我有Profile4
+- 打开路径发现我有Profile4
 ![](https://gitee.com/IFILOSEITALL/img/raw/master/20251218105723370.webp)
 
-### 第三步
-将现在的资料路径Default改名为Default_old，复制一份Profile4改名Default
+- 将现在的资料路径Default改名为Default_old，复制一份Profile4改名Default
 ![](https://gitee.com/IFILOSEITALL/img/raw/master/20251218105723371.webp)
 
-### 第四步
-没有第四步，问题完美解决！
+- 问题完美解决！
 
 
 ## 感慨一下
