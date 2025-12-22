@@ -23,3 +23,16 @@
 
 
 结尾的话，蕾塞有说“为什么没在第一次见面的时候杀了他呢”。不管怎么解读都觉得精妙，如果是含着遗憾说这句话，会觉得蕾塞的这个形象更立体，苏联武器、炸弹恶魔，她或许只是在与电次相遇的那一次，短暂地挣脱了工具的枷锁成为自己。如果是藏着爱意的话，也很微妙了
+
+## 蕾塞初见
+<div style="position: relative; width: 100%; padding-top: 56.25%;">
+  <iframe 
+    src="//player.bilibili.com/player.html?isOutside=true&aid=115750845027758&bvid=BV1ZAq6BAEPB&cid=34860633091&p=1" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>
