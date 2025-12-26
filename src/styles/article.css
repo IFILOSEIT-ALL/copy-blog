@@ -90,7 +90,9 @@
 .prose li {
 	margin: 0.35em 0;
 }
-
+.prose li p{
+	margin: 0;
+}
 /* Task Lists */
 .prose li.task-list-item {
 	list-style-type: none;
