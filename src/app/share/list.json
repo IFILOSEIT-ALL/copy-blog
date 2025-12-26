@@ -38,5 +38,15 @@
 			"图片"
 		],
 		"stars": 3
+	},
+	{
+		"name": "Habitica",
+		"logo": "https://gitee.com/IFILOSEITALL/img/raw/master/20251226092018801.webp",
+		"url": "https://habitica.com/",
+		"description": "Habitica提供三种任务类型来满足需求： 习惯、日常任务，待办事项。帮助您逐渐养成好的习惯",
+		"tags": [
+			"工具"
+		],
+		"stars": 3
 	}
 ]
