@@ -195,7 +195,7 @@
 	border-radius: 8px;
 }
 .prose blockquote p{
-	margin: none;
+	margin: 0;
 }
 
 /* HR */
