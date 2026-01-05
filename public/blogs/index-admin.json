@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "report-2025all",
+    "title": "2025年报—生命的轨迹",
+    "tags": [
+      "年报"
+    ],
+    "date": "2025-12-31",
+    "summary": "2025年度总结",
+    "cover": "https://gitee.com/IFILOSEITALL/img/raw/master/20251231172632475.webp",
+    "hidden": false
+  },
+  {
+    "slug": "ai-solves-chrome-reset-problem-quickly",
+    "title": "死机后浏览器配置没了？",
+    "tags": [
+      "疑难杂症",
+      "计算机",
+      "AI"
+    ],
+    "date": "2025-12-18",
+    "summary": "电脑死机导致浏览器配置全丢，靠 AI 给的方法替换配置文件夹恢复。感叹一下AI像人类智慧的 “字典”。",
+    "cover": "https://gitee.com/IFILOSEITALL/img/raw/master/20251218111317074.webp",
+    "hidden": false
+  },
+  {
+    "slug": "ani-leisai",
+    "title": "电锯人蕾塞篇",
+    "tags": [
+      "动漫",
+      "电锯人",
+      "影评"
+    ],
+    "date": "2025-12-16",
+    "summary": "会想用“生动”来形容画面，动作自然有灵魂，突然的声画分离非常有情绪张力。",
+    "cover": "/blogs/ani-leisai/6fdd11aa5410d5a9.webp",
+    "hidden": false
+  }
+]
