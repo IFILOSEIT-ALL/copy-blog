@@ -1,0 +1,76 @@
+{
+	"meta": {
+		"title": "Yuvex",
+		"description": "Yuvex 的博客，展示作品、记点博客、收藏些网络上的好东西~\n模板来自yysuni.com",
+		"username": "Yuvex"
+	},
+	"theme": {
+		"colorBrand": "#ef476f",
+		"colorPrimary": "#4E3F42",
+		"colorSecondary": "#7b888e",
+		"colorBrandSecondary": "#FCC841",
+		"colorBg": "#eeeeee",
+		"colorBorder": "#ffffff",
+		"colorCard": "#ffffff66",
+		"colorArticle": "#ffffffcc"
+	},
+	"backgroundColors": [
+		"#ef476f",
+		"#ffd166",
+		"#de92ce",
+		"#DE4331",
+		"#ef476f"
+	],
+	"artImages": [
+		{
+			"id": "a46372ff45bc5524",
+			"url": "/images/art/a46372ff45bc5524.jpg"
+		},
+		{
+			"id": "8b573287a5c4b213",
+			"url": "/images/art/8b573287a5c4b213.webp"
+		}
+	],
+	"currentArtImageId": "8b573287a5c4b213",
+	"backgroundImages": [
+		{
+			"id": "",
+			"url": ""
+		}
+	],
+	"currentBackgroundImageId": "",
+	"socialButtons": [
+		{
+			"id": "juejin",
+			"type": "qq",
+			"value": "2971904878",
+			"label": "稀土掘金",
+			"order": 1
+		},
+		{
+			"id": "button-1765350465078",
+			"type": "wechat",
+			"value": "15736155597",
+			"label": "",
+			"order": 2
+		},
+		{
+			"id": "email",
+			"type": "email",
+			"value": "ifiloseitall@foxmail.com",
+			"label": "",
+			"order": 3
+		},
+		{
+			"id": "github",
+			"type": "link",
+			"value": "yulair.top",
+			"label": "Old website",
+			"order": 4
+		}
+	],
+	"clockShowSeconds": false,
+	"summaryInContent": false,
+	"isCachePem": false,
+	"hideEditButton": true
+}
