@@ -62,15 +62,15 @@
 .prose strong {
 	font-weight: 600;
 	color: var(--color-brand);
-	margin: 0 0.25em;
 }
 
 /* Links */
 .prose a {
-	text-decoration: underline;
 	text-underline-offset: 2px;
-	color: var(--color-blue-500);
+	color: var(--color-brand);
 	font-weight: 500;
+	background-color: rgba(255, 255, 255, .2);
+    border-radius: 3px;
 }
 .prose a:hover {
 	opacity: 0.9;
@@ -90,7 +90,9 @@
 .prose li {
 	margin: 0.35em 0;
 }
-
+.prose li p{
+	margin: 0;
+}
 /* Task Lists */
 .prose li.task-list-item {
 	list-style-type: none;
@@ -177,7 +179,7 @@
 
 /* Images */
 .prose img {
-	max-width: 40%;
+	max-width: 60%;
 	margin: 1.5em auto;
 	height: auto;
 	border-radius: 12px;
@@ -191,8 +193,11 @@
 	border-left: 3px solid var(--color-brand);
 	background: rgba(0, 0, 0, 0.03);
 	margin: 1em 0;
-	padding: 0.75em 1em;
+	padding: 0.5em 1em;
 	border-radius: 8px;
+}
+.prose blockquote p{
+	margin: 0.25em 0;
 }
 
 /* HR */
