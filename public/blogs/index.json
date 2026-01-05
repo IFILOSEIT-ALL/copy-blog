@@ -8,7 +8,8 @@
     "date": "2025-12-31",
     "summary": "2025年度总结",
     "cover": "https://gitee.com/IFILOSEITALL/img/raw/master/20251231172632475.webp",
-    "hidden": false
+    "hidden": false,
+    "category": "时记"
   },
   {
     "slug": "ai-solves-chrome-reset-problem-quickly",
