@@ -64,7 +64,7 @@
 		{
 			"id": "github",
 			"type": "link",
-			"value": "yulair.top",
+			"value": "https://yulair.top/",
 			"label": "Old website",
 			"order": 4
 		}
