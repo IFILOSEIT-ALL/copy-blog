@@ -58,5 +58,15 @@
 			"工具"
 		],
 		"stars": 3
+	},
+	{
+		"name": "LKs 网站推荐合集",
+		"logo": "https://lkssite.vip/static/site/img/apple-touch-icon.png",
+		"url": "https://lkssite.vip/",
+		"description": "B站博主 -LKs- 收集整理的一些有意思的网站",
+		"tags": [
+			"网站集"
+		],
+		"stars": 3
 	}
 ]
