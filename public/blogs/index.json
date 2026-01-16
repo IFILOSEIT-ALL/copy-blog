@@ -1,5 +1,18 @@
 [
   {
+    "slug": "essay-beijing-one",
+    "title": "北京差旅 | 旧友、所闻和参差",
+    "tags": [
+      "旅游",
+      "随笔"
+    ],
+    "date": "2026-01-12T15:39",
+    "summary": "北京差旅记录，得空逛了会北京，半流水账配点零碎感想。",
+    "cover": "https://gitee.com/IFILOSEITALL/img/raw/master/20260116161901819.webp",
+    "hidden": false,
+    "category": ""
+  },
+  {
     "slug": "report-2025all",
     "title": "2025年报—生命的轨迹",
     "tags": [
