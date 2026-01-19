@@ -68,5 +68,15 @@
 			"网站集"
 		],
 		"stars": 3
+	},
+	{
+		"name": "LOL联盟宇宙",
+		"logo": "https://voice.buguoguo.cn/favicon.ico",
+		"url": "https://voice.buguoguo.cn/#/voice",
+		"description": "B站布锅锅创建，一个收录了LOL台词、语音、藏品、原画以及模型的网站，风格与英雄联盟统一但更现代，内容特别精良",
+		"tags": [
+			"资源"
+		],
+		"stars": 5
 	}
 ]
