@@ -150,6 +150,7 @@ export default function NavCard() {
 
 							<div className={cn('relative mt-2 space-y-2', form === 'icons' && 'mt-0 flex items-center gap-4 space-y-0')}>
 								<motion.div
+									key={form}
 									className='absolute max-w-[230px] rounded-full border'
 									layoutId='nav-hover'
 									initial={false}
