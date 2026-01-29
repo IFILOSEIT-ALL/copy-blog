@@ -33,5 +33,12 @@
 		"url": "https://blog.zhilu.site/",
 		"description": "读了点博客发现只比我大一届，但是强太多了，好像我的大学并没有做什么很厉害的事",
 		"stars": 4
+	},
+	{
+		"name": "AsyncX",
+		"avatar": "https://blog.asyncx.top/favicon.svg",
+		"url": "https://blog.asyncx.top/",
+		"description": "小猫",
+		"stars": 3
 	}
 ]
