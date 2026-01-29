@@ -40,7 +40,7 @@ const list = [
 	{
 		icon: AboutOutlineSVG,
 		iconActive: AboutFilledSVG,
-		label: '关于网站',
+		label: '交互录',
 		href: '/about'
 	},
 	{
@@ -148,7 +148,7 @@ export default function NavCard() {
 						<>
 							{form !== 'icons' && <div className='text-secondary mt-6 text-sm uppercase'>General</div>}
 
-							<div className={cn('relative mt-2 space-y-2', form === 'icons' && 'mt-0 flex items-center gap-6 space-y-0')}>
+							<div className={cn('relative mt-2 space-y-2', form === 'icons' && 'mt-0 flex items-center gap-4 space-y-0')}>
 								<motion.div
 									className='absolute max-w-[230px] rounded-full border'
 									layoutId='nav-hover'
@@ -157,9 +157,9 @@ export default function NavCard() {
 										form === 'icons'
 											? {
 													left: hoveredIndex * (itemHeight + 24) - extraSize,
-													top: -extraSize,
 													width: itemHeight + extraSize * 2,
-													height: itemHeight + extraSize * 2
+													height: itemHeight + extraSize * 2,
+													transform: 'translateX(4px)'
 												}
 											: { top: hoveredIndex * (itemHeight + 8), left: 0, width: '100%', height: itemHeight }
 									}
@@ -175,9 +175,9 @@ export default function NavCard() {
 									<Link
 										key={item.href}
 										href={item.href}
-										className={cn('text-secondary text-md relative z-10 flex items-center gap-3 rounded-full px-5 py-3', form === 'icons' && 'p-0')}
+										className={cn('text-secondary text-md relative z-10 flex items-center gap-3 rounded-full px-4 py-2', form === 'icons' && 'p-0')}
 										onMouseEnter={() => setHoveredIndex(index)}>
-										<div className='flex h-7 w-7 items-center justify-center'>
+										<div className='flex h-9 w-9 items-center justify-center'>
 											{hoveredIndex == index ? <item.iconActive className='text-brand absolute h-7 w-7' /> : <item.icon className='absolute h-7 w-7' />}
 										</div>
 										{form !== 'icons' && <span className={clsx(index == hoveredIndex && 'text-primary font-medium')}>{item.label}</span>}
