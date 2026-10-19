@@ -78,5 +78,17 @@
 			"资源"
 		],
 		"stars": 5
+	},
+	{
+		"name": "UI 速查",
+		"logo": "https://www.vibehub.xin/favicon.svg",
+		"url": "https://www.vibehub.xin/",
+		"description": "查找 UI 名称、交互流程与动画效果，理解用途、状态和实现边界。",
+		"tags": [
+			"资源",
+			"UI",
+			"AI开发"
+		],
+		"stars": 4
 	}
 ]
