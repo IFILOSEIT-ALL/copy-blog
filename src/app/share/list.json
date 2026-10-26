@@ -90,5 +90,17 @@
 			"AI开发"
 		],
 		"stars": 4
+	},
+	{
+		"name": "EasyUI",
+		"logo": "https://easyui.site/logo.png",
+		"url": "https://easyui.site/",
+		"description": "一个好看的UI动效库，26-10-26为止，认为里面的卡包、写真箱、环形图等动效特别好看\n",
+		"tags": [
+			"UI",
+			"动效",
+			"资源"
+		],
+		"stars": 3
 	}
 ]
