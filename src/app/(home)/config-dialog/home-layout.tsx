@@ -18,7 +18,8 @@ const CARD_LABELS: Record<string, string> = {
 	navCard: '导航',
 	likePosition: '点赞',
 	hatCard: '帽子',
-	beianCard: '备案'
+	beianCard: '备案',
+	todoCard: '待办'
 }
 
 interface HomeLayoutProps {
@@ -39,7 +40,7 @@ export function HomeLayout({ cardStylesData, setCardStylesData, onClose }: HomeL
 	}
 
 	const handleReset = () => {
-		setCardStylesData(cardStylesDefault as CardStyles)
+		setCardStylesData(cardStylesDefault as unknown as CardStyles)
 	}
 
 	return (

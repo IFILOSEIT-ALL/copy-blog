@@ -11,6 +11,24 @@
 	}
 }
 
+@utility thin-scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: color-mix(in srgb, var(--color-brand) 35%, transparent) transparent;
+
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		border-radius: 9999px;
+		background: color-mix(in srgb, var(--color-brand) 35%, transparent);
+	}
+}
+
 @layer base {
 	html {
 		@apply text-primary bg-bg h-full leading-tight;
