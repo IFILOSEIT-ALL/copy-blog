@@ -113,23 +113,23 @@ export default function TodoCard() {
 	return (
 		<HomeDraggableLayer cardKey='todoCard' x={x} y={y} width={styles.width} height={styles.height}>
 			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className='flex flex-col p-4 max-sm:static max-sm:translate-0'>
-				<div className='flex items-start justify-between gap-2'>
-					<div>
-						<h2 className='text-secondary text-sm'>待办清单</h2>
-						<p className='text-secondary/80 mt-0.5 text-[10px]'>
+				<div className='flex items-center justify-between gap-2'>
+					<div className='flex min-w-0 items-baseline gap-2'>
+						<h2 className='text-secondary shrink-0 text-sm'>待办清单</h2>
+						<p className='text-secondary/80 text-[10px] whitespace-nowrap'>
 							{remaining} 项未完成 / 共 {todos.length} 项
 						</p>
 					</div>
-					{completed > 0 && (
-						<button
-							type='button'
-							onClick={clearCompleted}
-							title='清除已完成'
-							aria-label='清除已完成'
-							className='text-secondary hover:text-brand rounded-lg p-1 transition-colors'>
-							<Trash2 className='size-3.5' />
-						</button>
-					)}
+					<button
+						type='button'
+						onClick={clearCompleted}
+						disabled={completed === 0}
+						data-card-tap='ignore'
+						title='清除已完成'
+						aria-label='清除已完成'
+						className='text-secondary hover:text-brand shrink-0 rounded-lg p-1 transition-colors disabled:cursor-not-allowed disabled:opacity-30'>
+						<Trash2 className='size-3.5' />
+					</button>
 				</div>
 
 				<form
@@ -165,6 +165,7 @@ export default function TodoCard() {
 									<button
 										type='button'
 										onClick={() => toggleTodo(todo.id)}
+										data-card-tap='ignore'
 										aria-label={todo.done ? '标记为未完成' : '标记为已完成'}
 										className={cn(
 											'flex size-4 shrink-0 items-center justify-center rounded-full border transition-colors',
@@ -205,6 +206,7 @@ export default function TodoCard() {
 									<button
 										type='button'
 										onClick={() => removeTodo(todo.id)}
+										data-card-tap='ignore'
 										title='删除'
 										aria-label='删除'
 										className='text-secondary/50 hover:text-brand shrink-0 rounded-lg p-0.5 opacity-0 transition-all group-hover:opacity-100 focus-visible:opacity-100 max-sm:opacity-100'>
