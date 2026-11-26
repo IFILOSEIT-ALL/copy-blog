@@ -102,5 +102,16 @@
 			"资源"
 		],
 		"stars": 3
+	},
+	{
+		"name": "SimpleMkt",
+		"logo": "https://simplemkt.cn/favicon.ico?v=20260921",
+		"url": "https://simplemkt.cn/zh/lab/",
+		"description": "SimpleMkt的探索实验室，有一些高级的交互、技术等",
+		"tags": [
+			"Web",
+			"UI"
+		],
+		"stars": 4
 	}
 ]
